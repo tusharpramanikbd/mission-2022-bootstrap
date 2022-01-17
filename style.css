@@ -1,0 +1,44 @@
+/*
+=============== 
+Variables
+===============
+*/
+:root {
+	--clr-white: #fff;
+	--clr-primary: rgb(248, 104, 88);
+	--clr-btn-hover: rgb(245, 151, 140);
+	--ff-primary: 'Poppins', sans-serif;
+	--ff-secondary: 'Luxurious Roman', cursive;
+	--spacing: 0.25rem;
+	--radius: 0.25rem;
+	--light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+	--dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+	--border: 2px solid red;
+}
+
+.banner-heading{
+	position: relative;
+  padding-left: 1rem;
+  font-family: var(--ff-secondary);
+}
+.banner-heading-bottom{
+  color: var(--clr-primary);
+}
+.btn-explore{
+  background: var(--clr-primary);
+  color: var(--clr-white);
+}
+.btn-explore:hover{
+  background: var(--clr-btn-hover);
+  color: var(--clr-white);
+}
+.banner-heading::before{
+	content: "";
+	width: 1%;
+	height: 80%;
+	background: var(--clr-primary);
+	position: absolute;
+	left: 0;
+	top: 10%;
+	border-radius: 10px;
+}
