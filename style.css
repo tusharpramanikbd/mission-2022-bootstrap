@@ -96,3 +96,44 @@ My mission section
 end of My mission section
 =========================
 */
+
+/*
+==================
+timeline section
+==================
+*/
+.card-timeline-1{
+	border-right: 2px dashed var(--clr-primary);
+	border-bottom: 2px dashed var(--clr-primary);
+	border-bottom-right-radius: 20px;
+}
+.card-timeline-2{
+	border-left: 2px dashed var(--clr-primary);
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+.card-timeline-3{
+	border-top: 2px dashed var(--clr-primary);
+	border-right: 2px dashed var(--clr-primary);
+	border-top-right-radius: 20px;
+}
+.timeline-number{
+	height: 24px;
+	width: 24px;
+	background-color: var(--clr-primary);
+	color: white;
+}
+.timeline-number-1{
+	right: -13px;
+}
+.timeline-number-2{
+	left: -13px;
+}
+.timeline-number-3{
+	right: -13px;
+}
+/*
+========================
+end of timeline section
+========================
+*/
