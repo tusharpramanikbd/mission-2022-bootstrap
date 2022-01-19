@@ -16,13 +16,42 @@ Variables
 	--border: 2px solid red;
 }
 
+/*
+=============== 
+global classes
+===============
+*/
+h1,
+h2,
+h3,
+h4 {
+	text-transform: capitalize;
+}
+span{
+	color: var(--clr-primary);
+}
+.section-center{
+	margin: 0 auto;
+	max-width: 1170px;
+}
+/*
+======================
+end of global classes
+======================
+*/
+
+
+/*
+======================
+banner section
+======================
+*/
+.heading-font{
+	font-family: var(--ff-secondary);
+}
 .banner-heading{
 	position: relative;
   padding-left: 1rem;
-  font-family: var(--ff-secondary);
-}
-.banner-heading-bottom{
-  color: var(--clr-primary);
 }
 .btn-explore{
   background: var(--clr-primary);
@@ -42,3 +71,28 @@ Variables
 	top: 10%;
 	border-radius: 10px;
 }
+/*
+======================
+end of banner section
+======================
+*/
+
+/*
+======================
+My mission section
+======================
+*/
+.card-1{
+	background-color: rgb(200, 241, 241);
+}
+.card-2{
+	background-color: rgb(241, 207, 203);
+}
+.card-3{
+	background-color: rgb(243, 225, 209);
+}
+/*
+=========================
+end of My mission section
+=========================
+*/
